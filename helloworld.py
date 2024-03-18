@@ -22,6 +22,7 @@ while True:
     if is_text_only(user_input):
         print("You entered text only.")
 
+
         # Translate the input to French
         translated_text = translate_to_french(user_input)
         print(f"The translated text in French is: {translated_text}")
